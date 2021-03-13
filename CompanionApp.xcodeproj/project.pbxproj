@@ -13,7 +13,7 @@
 		B70B2E2925FC9E0B00E41EF0 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2325FC9E0B00E41EF0 /* HomeModels.swift */; };
 		B70B2E2A25FC9E0B00E41EF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */; };
 		B70B2E2B25FC9E0B00E41EF0 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */; };
-		B70B2E2E25FC9E4200E41EF0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */; };
+		B70B2E3325FCA14E00E41EF0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70B2E3225FCA14E00E41EF0 /* Home.storyboard */; };
 		B73BFA6225FC37DE00BC2E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73BFA6125FC37DE00BC2E0E /* AppDelegate.swift */; };
 		B73BFA6425FC37DE00BC2E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73BFA6325FC37DE00BC2E0E /* SceneDelegate.swift */; };
 		B73BFA6E25FC37DF00BC2E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73BFA6D25FC37DF00BC2E0E /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 		B70B2E2325FC9E0B00E41EF0 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
 		B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B70B2E3225FCA14E00E41EF0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B73BFA5E25FC37DE00BC2E0E /* CompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73BFA6125FC37DE00BC2E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B73BFA6325FC37DE00BC2E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		B70B2E1F25FC9DF500E41EF0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */,
+				B70B2E3225FCA14E00E41EF0 /* Home.storyboard */,
 				B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */,
 				B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */,
 				B70B2E2025FC9E0B00E41EF0 /* HomePresenter.swift */,
@@ -194,7 +194,7 @@
 			files = (
 				B73BFA7125FC37DF00BC2E0E /* LaunchScreen.storyboard in Resources */,
 				B73BFA6E25FC37DF00BC2E0E /* Assets.xcassets in Resources */,
-				B70B2E2E25FC9E4200E41EF0 /* HomeViewController.xib in Resources */,
+				B70B2E3325FCA14E00E41EF0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
