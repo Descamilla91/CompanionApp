@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70B2E2625FC9E0B00E41EF0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2025FC9E0B00E41EF0 /* HomePresenter.swift */; };
+		B70B2E2725FC9E0B00E41EF0 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2125FC9E0B00E41EF0 /* HomeWorker.swift */; };
+		B70B2E2825FC9E0B00E41EF0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2225FC9E0B00E41EF0 /* HomeRouter.swift */; };
+		B70B2E2925FC9E0B00E41EF0 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2325FC9E0B00E41EF0 /* HomeModels.swift */; };
+		B70B2E2A25FC9E0B00E41EF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */; };
+		B70B2E2B25FC9E0B00E41EF0 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */; };
+		B70B2E2E25FC9E4200E41EF0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */; };
 		B73BFA6225FC37DE00BC2E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73BFA6125FC37DE00BC2E0E /* AppDelegate.swift */; };
 		B73BFA6425FC37DE00BC2E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73BFA6325FC37DE00BC2E0E /* SceneDelegate.swift */; };
 		B73BFA6E25FC37DF00BC2E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73BFA6D25FC37DF00BC2E0E /* Assets.xcassets */; };
@@ -16,6 +23,13 @@
 /* Begin PBXFileReference section */
 		2870168E93943DECC4DBA218 /* Pods-CompanionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionApp.debug.xcconfig"; path = "Target Support Files/Pods-CompanionApp/Pods-CompanionApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3A71D3C9CF013ACEB5447E94 /* Pods-CompanionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionApp.release.xcconfig"; path = "Target Support Files/Pods-CompanionApp/Pods-CompanionApp.release.xcconfig"; sourceTree = "<group>"; };
+		B70B2E2025FC9E0B00E41EF0 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B70B2E2125FC9E0B00E41EF0 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		B70B2E2225FC9E0B00E41EF0 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		B70B2E2325FC9E0B00E41EF0 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B73BFA5E25FC37DE00BC2E0E /* CompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73BFA6125FC37DE00BC2E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B73BFA6325FC37DE00BC2E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +49,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B70B2E1E25FC9DE500E41EF0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B70B2E1F25FC9DF500E41EF0 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B70B2E1F25FC9DF500E41EF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B70B2E2D25FC9E4200E41EF0 /* HomeViewController.xib */,
+				B70B2E2425FC9E0B00E41EF0 /* HomeViewController.swift */,
+				B70B2E2525FC9E0B00E41EF0 /* HomeInteractor.swift */,
+				B70B2E2025FC9E0B00E41EF0 /* HomePresenter.swift */,
+				B70B2E2125FC9E0B00E41EF0 /* HomeWorker.swift */,
+				B70B2E2225FC9E0B00E41EF0 /* HomeRouter.swift */,
+				B70B2E2325FC9E0B00E41EF0 /* HomeModels.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B73BFA5525FC37DE00BC2E0E = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +95,7 @@
 				B73BFA7225FC37DF00BC2E0E /* Info.plist */,
 				B73BFA9F25FC385600BC2E0E /* Configuration */,
 				B73BFAA025FC386800BC2E0E /* Assets */,
+				B70B2E1E25FC9DE500E41EF0 /* Scenes */,
 			);
 			path = CompanionApp;
 			sourceTree = "<group>";
@@ -157,6 +194,7 @@
 			files = (
 				B73BFA7125FC37DF00BC2E0E /* LaunchScreen.storyboard in Resources */,
 				B73BFA6E25FC37DF00BC2E0E /* Assets.xcassets in Resources */,
+				B70B2E2E25FC9E4200E41EF0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70B2E2625FC9E0B00E41EF0 /* HomePresenter.swift in Sources */,
 				B73BFA6225FC37DE00BC2E0E /* AppDelegate.swift in Sources */,
+				B70B2E2725FC9E0B00E41EF0 /* HomeWorker.swift in Sources */,
+				B70B2E2B25FC9E0B00E41EF0 /* HomeInteractor.swift in Sources */,
 				B73BFA6425FC37DE00BC2E0E /* SceneDelegate.swift in Sources */,
+				B70B2E2925FC9E0B00E41EF0 /* HomeModels.swift in Sources */,
+				B70B2E2A25FC9E0B00E41EF0 /* HomeViewController.swift in Sources */,
+				B70B2E2825FC9E0B00E41EF0 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
